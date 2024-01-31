@@ -15,7 +15,7 @@
         android:includeFontPadding="false"
         android:letterSpacing="0.3"
         android:lineSpacingExtra="@dimen/_5sdp"
-        android:text="Ads\nManager"
+        android:text="Kids Ads\nManager"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="@dimen/_32ssp" />
