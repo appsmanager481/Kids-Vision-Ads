@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">adslib</string>
+
+    <string name="default_title">No Internet</string>
+    <string name="default_message">Check your Internet connection and try again.</string>
+    <string name="please_turn_on">Please turn on</string>
+    <string name="app_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="retry">Retry Again</string>
+    <string name="connect_internet">Please Connect To Internet</string>
+    <string name="ad">AD</string>
+    <string name="continue_to_app">Continue to app</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="install_now">Install Now</string>
+    <string name="_5">5</string>
+    <string name="_5_seconds_remaining">5 Seconds Remaining</string>
+</resources>

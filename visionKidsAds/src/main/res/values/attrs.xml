@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MoreAppAdsView">
+        <attr name="customAttribute" format="enum">
+            <enum name="inner" value="0"/>
+            <enum name="splash" value="1"/>
+            <enum name="exit" value="2"/>
+            <enum name="assign" value="3"/>
+        </attr>
+        <attr name="layoutSize" format="enum">
+            <enum name="big" value="0"/>
+            <enum name="small" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
