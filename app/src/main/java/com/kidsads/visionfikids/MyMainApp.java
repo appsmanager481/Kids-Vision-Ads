@@ -17,5 +17,6 @@ public class MyMainApp extends MyApp {
         super.onCreate();
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         MyApplications = this;
+
     }
 }
