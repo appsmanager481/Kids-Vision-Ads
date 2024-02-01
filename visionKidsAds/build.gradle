@@ -3,16 +3,10 @@ buildscript {
         google()
         mavenCentral()
         mavenLocal()
-        jcenter()
-        gradlePluginPortal()
-        maven { url "https://jitpack.io" }
-        flatDir {
-            dirs 'lib'
-        }
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath 'com.android.tools.build:gradle:8.1.1'
     }
 }
 
@@ -27,7 +21,6 @@ android {
 
     defaultConfig {
         minSdk 24
-        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -55,8 +48,6 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-
-    implementation 'com.android.support:multidex:1.0.3'
 
     //lottie
     implementation 'com.airbnb.android:lottie:6.1.0'
