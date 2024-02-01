@@ -69,6 +69,14 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
     implementation 'com.google.android.gms:play-services-ads:22.6.0'
 
+    constraints {
+        implementation('androidx.work:work-runtime:2.7.0') {
+            because '''androidx.work:work-runtime:2.1.0 pulled from play-services-ads
+                   has a bug using PendingIntent without FLAG_IMMUTABLE or
+                   FLAG_MUTABLE and will fail in apps targeting S+.'''
+        }
+    }
+
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
     implementation 'com.intuit.ssp:ssp-android:1.1.0'
 
