@@ -108,7 +108,7 @@ publishing {
             artifactId = 'Kids-Vision-Ads'
             version = "1.0"
             pom {
-                description = 'Some Release New'
+                description = 'New Release'
             }
         }
     }
