@@ -22,6 +22,6 @@ Add it in your root build.gradle at the end of repositories:
 
 ```bash
   dependencies {
-	        implementation 'com.github.appsmanager481:Kids-Vision-Ads:1.0'
+	        implementation 'com.github.appsmanager481:Kids-Vision-Ads:1.5'
 	}
 ```
